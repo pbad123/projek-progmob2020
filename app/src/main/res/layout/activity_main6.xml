@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/hiasanbawah"
+        android:layout_alignParentBottom="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            app:srcCompat="@drawable/judulbr"
+            android:background="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi :"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          Jaratkaru merupakan film perdana yang dibuat oleh ILS E tahun 2019, dimana film ini menggabungkan dua cerita yaitu cerita tentang atma prasangsya atau perjalanan atma dan juga cerita legenda Sang Jaratkaru."
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinopsis :"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          Dikisahkan seorang Brahmana yang amat sakti mantra guna yang sedang melakukan tapanya. Dalam proses tapanya ia didatangi oleh Dewa Indra yang ingin mengabulkan satu permintaan dari Jaratkaru. Sang Jaratkaru pun meminta kepada Dewa Indra unutk diantar menemui leluhurnya. Pada saat menemukan Sang Jaratkaru amat terkejut, karena leluhurnya berada di Ayatanasthana dan sedang disiksa di sebuah bambu yang akan patah dan jatuh ke neraka. Dewa Indra pun menasehatinya untuk segera menikah. Disaat yang sama di kerajaan Naga, Sang Naga Basuki sedang bertapa untuk mencari jalan keluar dari masalah Yadnya Sarpa atau korban ular yang sedang menimpa kaumnya. Lalu Dewa Indra pun datang menemui Sang Naga Basuki untuk segera menikahkan adiknya yaitu Nagini agar kaumnya bisa terbebas dari Yadnya Sarpa. Apakkah Jaratkaru akan menikah dengan Nagagini ?"
+            android:fontFamily="@font/sambi_lemon"/>
+    </LinearLayout>
+</RelativeLayout>

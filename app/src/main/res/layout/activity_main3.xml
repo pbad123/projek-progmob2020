@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/hiasanbawah"
+        android:layout_alignParentBottom="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            app:srcCompat="@drawable/hptump"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi :"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          Harry Potter and the Deathly Hallows – Bagian 2 adalah film fantasi epik 2011 yang disutradarai oleh David Yates. Film merupakan adaptasi dari novel karangan J.K Rowling, Harry Potter dan Relikui Kematian dan merupakan film bagian dua. Film merupakan sekuel dari The Deathly Hallows Bagian 1. Film ini dirilis pada tanggal 13 Juli 2011."
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinopsis :"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          Harry dan kedua sahabatnya kemudian berusaha mencari rencana baru. Ia menanyai Ollivander mengenai Elder Wand dan mendapati bahwa pemilik terakhirnya adalah Dumbledore. Ia berusaha untuk mencegah Voldemort mengambilnya dari makam Dumbledore. Dibantu Griphook, Hermione menyamar sebagai Bellatrix Lestrange dan bersama-sama Harry dan Ron memasuki lemari besi Bellatrix di Bank Gingrott’s. Di sana mereka menemukan satu lagi Horcrux, piala Hufflepuff. Griphook kemudian mengkhianati mereka dan melarikan diri dan mencuri pedang Godric Gryffindor. Harry, Ron, dan Hermione berhasil melarikan diri, tetapi Voldemort menyadari bahwa mereka mencari Horcrux-Horcrux-nya."
+            android:fontFamily="@font/sambi_lemon"/>
+    </LinearLayout>
+</RelativeLayout>

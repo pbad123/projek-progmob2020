@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/hiasanbawah"
+        android:layout_alignParentBottom="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            app:srcCompat="@drawable/jokertump"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi :"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          Joker ditayangkan secara perdana di Festival Film Venesia pada tanggal 31 Agustus 2019 serta ditayangkan di Amerika Serikat pada 4 Oktober 2019 dan Indonesia dua hari sebelumnya. Joker adalah film laga hidup pertama Batman yang mendapatkan klasifikasi R dari Motion Picture Association of America karena kekerasan berdarah yang kuat, perilaku mengganggu, bahasa dan gambar seksual singkat."
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinopsis :"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:fontFamily="@font/sambi_lemon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="          Pada 1981, Arthur Fleck, seorang badut yang berusia 40 tahun tinggal bersama ibunya, Penny di Kota Gotham yang kacau balau. Dia menderita kelainan otak yang menyebabkan dia tertawa pada waktu yang tidak tepat dan dia sering mengunjungi pekerja layanan sosial untuk mendapatkan obatnya. Setelah sekelompok anak jalanan mencuri papan milik Arthur dan mengeroyokinya di lorong, salah seorang rekan kerjanya meminjamkan pistol sebagai alat perlindungan diri. Suatu saat, penyakitnya kambuh ketika ia sedang menaiki kereta api, sehingga Sophie keheranan dengan tingkahnya dan Arthur memberikan sebuah kartu untuk menjawab keheranannya. Arthur kemudian menjalin hubungan baik dengannya, yang kemudian baru disadarinya bahwa Sophie tinggal di apartemen yang sama dengannya."
+            android:fontFamily="@font/sambi_lemon"/>
+    </LinearLayout>
+</RelativeLayout>

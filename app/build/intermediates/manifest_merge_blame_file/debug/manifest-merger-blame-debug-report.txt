@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.parentview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:5:5-48:19
+12        android:allowBackup="true"
+12-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\panji badra\.gradle\caches\transforms-2\files-2.1\aa782ce88e4a65071c9b22f6f1fd262a\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:12:9-18:20
+22            android:name="com.example.parentview.Main6Activity"
+22-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:13:13-42
+23            android:parentActivityName="com.example.parentview.Main2Activity" >
+23-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:14:13-56
+24            <meta-data
+24-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:15:13-17:50
+25                android:name="android.support.PARENT_ACTIVITY"
+25-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:16:17-63
+26                android:value=".Main2Activity" />
+26-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:17:17-47
+27        </activity>
+28        <activity
+28-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:19:9-25:20
+29            android:name="com.example.parentview.Main5Activity"
+29-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:20:13-42
+30            android:parentActivityName="com.example.parentview.Main2Activity" >
+30-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:21:13-56
+31            <meta-data
+31-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:15:13-17:50
+32                android:name="android.support.PARENT_ACTIVITY"
+32-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:16:17-63
+33                android:value=".Main2Activity" />
+33-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:17:17-47
+34        </activity>
+35        <activity
+35-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:26:9-32:20
+36            android:name="com.example.parentview.Main4Activity"
+36-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:27:13-42
+37            android:parentActivityName="com.example.parentview.Main2Activity" >
+37-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:28:13-56
+38            <meta-data
+38-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:15:13-17:50
+39                android:name="android.support.PARENT_ACTIVITY"
+39-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:16:17-63
+40                android:value=".Main2Activity" />
+40-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:17:17-47
+41        </activity>
+42        <activity
+42-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:33:9-39:20
+43            android:name="com.example.parentview.Main3Activity"
+43-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:34:13-42
+44            android:parentActivityName="com.example.parentview.Main2Activity" >
+44-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:35:13-56
+45            <meta-data
+45-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:15:13-17:50
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:16:17-63
+47                android:value=".Main2Activity" />
+47-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:17:17-47
+48        </activity>
+49        <activity android:name="com.example.parentview.Main2Activity" />
+49-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:40:9-51
+49-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:40:19-48
+50        <activity android:name="com.example.parentview.MainActivity" >
+50-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:41:9-47:20
+50-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:41:19-47
+51            <intent-filter>
+51-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:42:13-46:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:43:17-69
+52-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:43:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:45:17-77
+54-->D:\Lost Partition 1 (NTFS)\progmob\parentview\app\src\main\AndroidManifest.xml:45:27-74
+55            </intent-filter>
+56        </activity>
+57    </application>
+58
+59</manifest>
